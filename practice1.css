@@ -1,0 +1,158 @@
+* {
+margin: 0;
+padding: 0;
+}
+/* HTML Background in html Doc. */
+body {
+width: 100%;
+background-color: hsla(60, 100%, 90%, .7);
+}
+
+body p {
+font-weight: bold;
+margin-top: 8px;
+}
+
+header h3{
+  font-family: "Satisfy";
+  background-color: orange;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  margin-bottom: 0;
+}
+
+header img{
+  float: left;
+  background-color: orange;
+}
+
+header ul{
+  background-color: orange;
+  position: relative;
+  font-family: verdana;
+  list-style-type: none;
+  margin-right: 7px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+header ul li {
+  float: left;
+  padding-right: 5px;
+}
+
+header ul li a {
+  font-size: 90%;
+  color: black;
+  display: inline-block;
+  background-color: orange;
+  padding: 5px;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+ background-color: white;
+ color: orange;
+}
+
+article img {
+  width: 100%;
+  max-width: 1300px;
+  max-height: 375px;
+}
+
+main {
+  padding: 10px;
+}
+
+main h1 {
+  text-align: left;
+}
+
+main h3 {
+  text-align: center;
+  color: green;
+}
+
+main p {
+  font-size: 80%;
+  margin-bottom: 9px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  padding: 15px 260px 30px 15px;
+}
+
+footer img{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 150px;
+  margin-bottom: 5px;
+}
+
+footer ol {
+  border-left: 1px solid white;
+}
+
+footer ol li {
+  list-style-type: none;
+  padding-left: 12px;
+}
+
+/* FlexBox Css */
+  .fl-container {
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+  max-width: 600px;
+  max-height: 250px;
+	background-color: lightblue;
+}
+	.fl-image {
+	background-color: blue;
+  margin: 5px;
+  padding: 5px;
+}
+/*End Flex-box */
+
+.float1 {
+  float: right;
+}
+
+.box-ul {
+  color: white;
+  margin-left: 1em;
+  margin-bottom: 5px;
+}
+
+.adjust1 {
+  margin-top: 33px;
+}
+
+#box1 {
+  width: 100%;
+  max-width: 800px;
+  max-height: 350px;
+  background-color: lightblue;
+  box-shadow: 1px 2px 3px black;
+  padding: 5px;
+  float: right;
+}
+
+#box2 {
+  width: 100%;
+  max-width: 300px;
+  background-color: lightblue;
+  padding: 5px;
+  border: 2px solid blue;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#column {
+  text-align: center;
+  margin-bottom: 5px;
+}
